@@ -1,0 +1,65 @@
+/* 
+    nav start
+            */
+.nav-one {
+    display: flex;
+    background-color: #253237;
+    height: 45px;
+}
+.nav-one h4 {
+    color: white;
+    margin-top: 13px;
+    padding-bottom: 0;
+    margin-left: 8px;
+    font-weight: lighter;
+}
+.nav-two {
+    display: flex;
+    list-style-type: none;
+    margin-left: 700px;
+    margin-top: 13px;
+}
+.nav-two li {
+    margin-left: 10px;
+    padding-bottom: 0;
+    border-right: 2px solid white;
+    padding-right: 8px;
+    
+}
+.nav-two > li a {
+    text-decoration: none;
+    color: white;
+}
+.nav-one h4:hover {
+    color: rgb(255, 192, 76);
+}
+.nav-two a:hover {
+    color: rgb(255, 192, 76);
+}
+.sub-nav {
+    display: none;
+    position: absolute;
+}
+.sub-nav li {
+    border: none;
+    margin-right: 10px;
+    padding-right: 10px;
+    padding-bottom: 3px;
+}
+.hover-nav:hover > ul {
+    background-color: grey;
+    display: block;
+    flex-direction: column;
+}
+
+.my-align-one h5 {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.fas {
+    padding-left: 5px;
+    margin-left: 10px;
+    margin-right: 10px; 
+}
